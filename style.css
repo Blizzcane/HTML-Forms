@@ -1,0 +1,35 @@
+
+form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
+
+div {
+  display: flex;
+  flex-flow: column wrap;
+  margin-right: 5px;
+}
+
+form button {
+    padding: 2px 20px;
+    border-radius: 15px;
+    border: 1;
+    font-family: Tahoma;
+    font-size: 16px;
+    background: #fff;
+    color: #000; 
+    margin: 0 8px 10px 0;
+}
